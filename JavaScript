@@ -1,0 +1,41 @@
+#Javascript 
+
+// ##Variables 
+
+// ##Arrays 
+
+// ##Functions - taking a val in and then out 
+
+function coolFunction (arg) {
+    if (typeof arg == 'string') return 'string';
+    return 'not string'
+}
+
+const thisval = coolFunction('hi'); //string 
+
+const coolArrowFunction = () => 'hello';
+
+
+// ##Objects 
+
+{
+    "key": "value"
+}
+
+const annoyingObject = {
+    top: [
+        {
+            middle: {
+                buttom: {
+                    thing: 'frogs'
+                }
+            }
+        }
+    ]
+}
+const JSONExample = [
+    {
+        "key":
+
+    }
+]
